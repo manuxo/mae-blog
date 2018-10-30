@@ -1,0 +1,19 @@
+{
+  "name": "mae-blog",
+  "version": "1.0.0",
+  "description": "Personal website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manuxo/mae-blog.git"
+  },
+  "author": "Manuel Augusto Alvarado Estanga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manuxo/mae-blog/issues"
+  },
+  "homepage": "https://github.com/manuxo/mae-blog#readme"
+}
