@@ -5,8 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>MAE - Blog</title>
+    <link rel="manifest" href="/manifest.json">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
 </head>
 <body>
-    <%= message %>
+    <header>
+        <nav>
+            <div class="nav-wrapper blue darken-4">
+                <a href="#!" class="brand-logo">Logo</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="/">Inicio</a></li>
+                    <li><a href="/">Acerca de</a></li>
+                    <li><a href="/">Blog</a></li>
+                    <li><a href="/">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="/">Inicio</a></li>
+            <li><a href="/">Acerca de</a></li>
+            <li><a href="/">Blog</a></li>
+            <li><a href="/">Contacto</a></li>
+        </ul>
+    </header>  
+    <main class="blue lighten-5">
+        <%= message %>
+    </main>
+    <footer class="page-footer blue darken-4">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Sígueme en</h5>
+                    <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Enlaces</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Inicio</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Acerca de</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Blog</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                <p class="center">
+                    © 2018 Powered by 
+                    <a href="https://github.com/manuxo" style="text-decoration: none; color:inherit; font-weight: bold;" target="blank">MAE</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="/js/index.js"></script>
 </body>
 </html>
