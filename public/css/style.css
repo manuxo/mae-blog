@@ -7,3 +7,7 @@ body {
 main {
     flex: 1 0 auto;
 }
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

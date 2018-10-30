@@ -29,7 +29,7 @@ app.use(express.static(path.join(__dirname,'public')));
 //Routes
 
 app.get('/', (req,res) => {
-    res.status(200).render('index',{message:'index works!'});
+    res.status(200).render('index',{message:'index works!', tittle:'Inicio'});
 });
 
 //Error handling
