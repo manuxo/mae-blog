@@ -16,6 +16,7 @@ var urlsToCache = [
     '/layouts/header.ejs',
     '/bundles.ejs',
     '/index.ejs',
+    '/favicon.ico',
     '/manifest.json'
 ];
 self.addEventListener('install', function(event) {
